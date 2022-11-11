@@ -14,7 +14,7 @@ ECHO = 24
 
 GPIO.setup(12, GPIO.OUT)    # setting 12 as output pin 
 
-led = GPIO.PWM(12, 1000)     #Creates an PWM instance and assigns it to variable led
+led = GPIO.PWM(12, 100)     #Creates an PWM instance and assigns it to variable led
 led.start(0)              #starts the PWM
 
 GPIO.setup(TRIG, GPIO.OUT)     
